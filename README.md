@@ -36,19 +36,14 @@ This project uses translation APIs to process the input text and generate accura
 Language_Translation_Tool
 
 │── app.py
-|
 │── requirements.txt
-|
 │── README.md
 
 
 │── templates
-| |
 │ └── index.html
 
-
 │── static
-|
 └── style.css
 
 ---
