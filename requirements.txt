@@ -1,3 +1,5 @@
 flask
-deep-translator
 gunicorn
+deep-translator
+gtts
+speechrecognition
