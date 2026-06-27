@@ -33,7 +33,7 @@ This project uses translation APIs to process the input text and generate accura
 ---
 
 ## 📂 Project Structure
-Language_Translation_Tool
+CodeAlpha_LanguageTranslationTool
 
 │── app.py
 
