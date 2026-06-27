@@ -1,22 +1,22 @@
-##             SMART VOICE APP       
+# 🌐 Language Translation Tool
 
-## 📌 Project Overview
+## 📌 Overview
 
-The Language Translation Tool is a Python-based application that helps users translate text from one language to another. It provides an easy-to-use interface where users can enter text, select languages, and get instant translations.
+Language Translation Tool is a web-based application built using Python and Flask that allows users to translate text from one language to another.
 
-This project uses translation APIs to process the input text and generate accurate translated output.
+The application provides a simple interface where users can enter text, select source and target languages, and get instant translations.
 
 ---
 
 ## ✨ Features
 
-- 🌍 Translate text between multiple languages
-- 🔄 Supports source and target language selection
-- ⚡ Fast translation results
-- 🖥️ Simple and user-friendly interface
-- 🎤 Voice input support (if enabled)
-- 🔊 Text-to-speech output support (if enabled)
+- 🌍 Supports multiple languages
+- 🔄 Source and target language selection
+- ⚡ Instant text translation
+- 🎤 Voice input support
+- 🔊 Text-to-speech output
 - 📱 Responsive design for different devices
+- 🎨 Simple and attractive user interface
 
 ---
 
@@ -24,8 +24,8 @@ This project uses translation APIs to process the input text and generate accura
 
 - Python
 - Flask
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 - Deep Translator Library
 - Google Translate API
@@ -33,22 +33,18 @@ This project uses translation APIs to process the input text and generate accura
 ---
 
 ## 📂 Project Structure
-CodeAlpha_LanguageTranslationTool
 
-│── app.py
+CodeAlpha_Language_Translation_Tool
 
-│── requirements.txt
-
-│── README.md
-
-
-│── templates
-
-│ └── index.html
-
-│── static
-
-└── style.css
+├── app.py  
+├── requirements.txt  
+├── README.md  
+│
+├── templates  
+│   └── index.html  
+│
+└── static  
+    └── style.css  
 
 ---
 
@@ -56,30 +52,37 @@ CodeAlpha_LanguageTranslationTool
 
 Clone the repository:
 
-Go inside the project folder:
+git clone https://github.com/harika-2426/CodeAlpha_LanguageTranslationTool.git
+
 
 Install required packages:
 
+pip install -r requirements.txt
+
+
 ---
 
-## ▶️ Run the Project
+## ▶️ Run Project
 
 Start the application:
+
 python app.py
 
-Open in browser:
+
+Open browser:
+
 http://127.0.0.1:5000
 
 ---
 
-## 📸 Output
+## 🔍 Working Process
 
-The application allows users to:
-
-1. Enter text
-2. Select input language
-3. Select output language
-4. Translate instantly
+1. User enters text
+2. Selects source language
+3. Selects target language
+4. Application sends request
+5. Translation is generated
+6. Result is displayed
 
 ---
 
@@ -87,19 +90,30 @@ The application allows users to:
 
 This project demonstrates:
 
+- Flask web development
 - API integration
-- Python programming
-- Web application development
-- User interface design
+- Language processing
+- User interface development
+
+---
+
+## 🚀 Future Improvements
+
+- Add more language support
+- Improve translation accuracy
+- Add conversation mode
+- Add AI-based translation
 
 ---
 
 ## 👩‍💻 Developed For
 
-CodeAlpha Internship Task 1
+CodeAlpha Artificial Intelligence Internship
 
-Language Translation Tool
+Task 1: Language Translation Tool
 
 ## 🌐 Live Demo
 
-[🚀 Smart Voice App](https://smart-voice-app.onrender.com)
+🔗 Live Website:
+
+[smart voice app](https://smart-voice-app.onrender.com)
