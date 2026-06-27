@@ -16,7 +16,7 @@
 <div class="container">
 
 
-<h1>🌐 AI Language Translator</h1>
+<h1>🌐 Smart Voice App</h1>
 
 <p class="sub">
 Translate text using AI + Voice
@@ -48,236 +48,132 @@ onclick="startVoice()">
 
 
 <div class="languages">
-
-
 <select name="source">
 
+<option value="auto">Auto Detect</option>
 
-<option value="auto">
-Auto Detect
-</option>
+<option value="en">English</option>
+<option value="hi">Hindi</option>
+<option value="te">Telugu</option>
+<option value="ta">Tamil</option>
+<option value="ml">Malayalam</option>
+<option value="kn">Kannada</option>
+<option value="bn">Bengali</option>
+<option value="mr">Marathi</option>
+<option value="gu">Gujarati</option>
+<option value="pa">Punjabi</option>
+<option value="ur">Urdu</option>
 
+<option value="es">Spanish</option>
+<option value="fr">French</option>
+<option value="de">German</option>
+<option value="it">Italian</option>
+<option value="pt">Portuguese</option>
+<option value="ru">Russian</option>
 
-<option value="en">
-English
-</option>
+<option value="ja">Japanese</option>
+<option value="ko">Korean</option>
+<option value="zh-CN">Chinese Simplified</option>
+<option value="zh-TW">Chinese Traditional</option>
 
-<option value="hi">
-Hindi
-</option>
+<option value="ar">Arabic</option>
+<option value="tr">Turkish</option>
+<option value="nl">Dutch</option>
+<option value="sv">Swedish</option>
+<option value="no">Norwegian</option>
+<option value="da">Danish</option>
+<option value="fi">Finnish</option>
 
-<option value="te">
-Telugu
-</option>
+<option value="pl">Polish</option>
+<option value="cs">Czech</option>
+<option value="sk">Slovak</option>
+<option value="hu">Hungarian</option>
+<option value="ro">Romanian</option>
+<option value="bg">Bulgarian</option>
+<option value="uk">Ukrainian</option>
+<option value="el">Greek</option>
+<option value="he">Hebrew</option>
+<option value="fa">Persian</option>
 
-<option value="ta">
-Tamil
-</option>
+<option value="id">Indonesian</option>
+<option value="ms">Malay</option>
+<option value="vi">Vietnamese</option>
+<option value="th">Thai</option>
+<option value="tl">Filipino</option>
 
-<option value="ml">
-Malayalam
-</option>
+<option value="sw">Swahili</option>
+<option value="af">Afrikaans</option>
+<option value="am">Amharic</option>
+<option value="zu">Zulu</option>
 
-<option value="kn">
-Kannada
-</option>
-
-<option value="bn">
-Bengali
-</option>
-
-<option value="mr">
-Marathi
-</option>
-
-<option value="gu">
-Gujarati
-</option>
-
-<option value="pa">
-Punjabi
-</option>
-
-<option value="ur">
-Urdu
-</option>
-
-<option value="fr">
-French
-</option>
-
-<option value="es">
-Spanish
-</option>
-
-<option value="de">
-German
-</option>
-
-<option value="it">
-Italian
-</option>
-
-<option value="pt">
-Portuguese
-</option>
-
-<option value="ru">
-Russian
-</option>
-
-<option value="ja">
-Japanese
-</option>
-
-<option value="ko">
-Korean
-</option>
-
-<option value="zh-CN">
-Chinese
-</option>
-
-<option value="ar">
-Arabic
-</option>
-
-<option value="tr">
-Turkish
-</option>
-
-<option value="nl">
-Dutch
-</option>
-
-<option value="sv">
-Swedish
-</option>
-
-<option value="fi">
-Finnish
-</option>
-
-<option value="no">
-Norwegian
-</option>
-
-<option value="da">
-Danish
-</option>
-
-<option value="pl">
-Polish
-</option>
-
-<option value="uk">
-Ukrainian
-</option>
-
-<option value="vi">
-Vietnamese
-</option>
-
-<option value="th">
-Thai
-</option>
-
-<option value="id">
-Indonesian
-</option>
-
-<option value="ne">
-Nepali
-</option>
-
-<option value="si">
-Sinhala
-</option>
-
-<option value="fa">
-Persian
-</option>
-
-<option value="he">
-Hebrew
-</option>
-
-<option value="sw">
-Swahili
-</option>
-
+<option value="ne">Nepali</option>
+<option value="si">Sinhala</option>
+<option value="my">Myanmar</option>
+<option value="km">Khmer</option>
+<option value="la">Latin</option>
 
 </select>
-
-
 
 
 
 <select name="target">
 
+<option value="en">English</option>
+<option value="hi">Hindi</option>
+<option value="te">Telugu</option>
+<option value="ta">Tamil</option>
+<option value="ml">Malayalam</option>
+<option value="kn">Kannada</option>
+<option value="bn">Bengali</option>
+<option value="mr">Marathi</option>
+<option value="gu">Gujarati</option>
+<option value="pa">Punjabi</option>
+<option value="ur">Urdu</option>
 
-<option value="en">
-English
-</option>
+<option value="es">Spanish</option>
+<option value="fr">French</option>
+<option value="de">German</option>
+<option value="it">Italian</option>
+<option value="pt">Portuguese</option>
+<option value="ru">Russian</option>
 
+<option value="ja">Japanese</option>
+<option value="ko">Korean</option>
+<option value="zh-CN">Chinese Simplified</option>
+<option value="zh-TW">Chinese Traditional</option>
 
-<option value="hi">
-Hindi
-</option>
+<option value="ar">Arabic</option>
+<option value="tr">Turkish</option>
+<option value="nl">Dutch</option>
+<option value="sv">Swedish</option>
+<option value="no">Norwegian</option>
+<option value="da">Danish</option>
+<option value="fi">Finnish</option>
 
+<option value="pl">Polish</option>
+<option value="cs">Czech</option>
+<option value="sk">Slovak</option>
+<option value="hu">Hungarian</option>
+<option value="ro">Romanian</option>
+<option value="bg">Bulgarian</option>
+<option value="uk">Ukrainian</option>
+<option value="el">Greek</option>
+<option value="he">Hebrew</option>
+<option value="fa">Persian</option>
 
-<option value="te">
-Telugu
-</option>
+<option value="id">Indonesian</option>
+<option value="ms">Malay</option>
+<option value="vi">Vietnamese</option>
+<option value="th">Thai</option>
+<option value="tl">Filipino</option>
 
-<option value="ta">
-Tamil
-</option>
-
-<option value="ml">
-Malayalam
-</option>
-
-<option value="kn">
-Kannada
-</option>
-
-<option value="fr">
-French
-</option>
-
-<option value="es">
-Spanish
-</option>
-
-<option value="de">
-German
-</option>
-
-<option value="ja">
-Japanese
-</option>
-
-<option value="ko">
-Korean
-</option>
-
-<option value="zh-CN">
-Chinese
-</option>
-
-<option value="ar">
-Arabic
-</option>
-
-<option value="ru">
-Russian
-</option>
-
+<option value="sw">Swahili</option>
+<option value="af">Afrikaans</option>
+<option value="ne">Nepali</option>
+<option value="si">Sinhala</option>
+<option value="my">Myanmar</option>
 
 </select>
-
-
 </div>
 
 
@@ -398,6 +294,5 @@ document.getElementById("text").value=text;
 
 
 </body>
-
 
 </html>
