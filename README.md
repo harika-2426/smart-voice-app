@@ -99,3 +99,7 @@ This project demonstrates:
 CodeAlpha Internship Task 1
 
 Language Translation Tool
+
+## 🌐 Live Demo
+
+[🚀 Launch App](https://your-live-app-link.com)
